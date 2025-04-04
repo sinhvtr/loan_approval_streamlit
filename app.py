@@ -3,7 +3,7 @@ import pandas as pd
 import pickle
 
 # Load the pipeline from the pickle file
-with open('decision_tree_pipeline.pkl', 'rb') as file:
+with open('naive_bayes_pipeline.pkl', 'rb') as file:
     loaded_pipeline = pickle.load(file)
 
 # Set up the Streamlit app title
